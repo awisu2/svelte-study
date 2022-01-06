@@ -17,6 +17,12 @@ nodeのuiフレームワークsvelteの勉強リポジトリ。ここでは実�
 - [Introduction / Basics • Svelte Tutorial](https://svelte.dev/tutorial/basics)
 - [Docs • Svelte](https://svelte.dev/docs)
 
+## contents
+
+- /rollup-svelte : rollup-plugin-svelteを利用して動作をさせてみました
+  - rolluup: node.jsでのビルド環境
+- /sveltekit : svelteの開発補助パッケージsveltekitを利用して動作をさせてみました。viteによってビルド及び動作
+
 ## タスク
 
 - [] [SvelteKit • The fastest way to build Svelte apps](https://kit.svelte.dev/)
