@@ -19,10 +19,13 @@ nodeのuiフレームワークsvelteの勉強リポジトリ。ここでは実�
 
 ## contents
 
-- /rollup-svelte : rollup-plugin-svelteを利用して動作をさせてみました
+- [rollup-svelte](./rollup-svelte) : rollup-plugin-svelteを利用して動作をさせてみました
   - rolluup: node.jsでのビルド環境
-- /sveltekit : svelteの開発補助パッケージsveltekitを利用して動作をさせてみました。viteによってビルド及び動作
+- [sveltekit](./sveltekit) : svelteの開発補助パッケージsveltekitを利用して動作をさせてみました。viteによってビルド及び動作
+- [with webpack](https://github.com/awisu2/webpack-study/tree/main/svelteWithTypescript): webpack + svelte + typescript
 
-## タスク
+## Todo
 
 - [] [SvelteKit • The fastest way to build Svelte apps](https://kit.svelte.dev/)
+
+- []
