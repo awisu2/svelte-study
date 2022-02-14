@@ -37,3 +37,4 @@ node の ui フレームワーク svelte の勉強リポジトリ。ここでは
 ## self svelte components
 
 - [lasyImageOrder](./components/LasyImageOrder.svelte): lasy load image on order
+- [sidebarMover](./components/sidebarMover.svelte): resize the side area with the mouse
