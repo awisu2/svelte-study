@@ -30,7 +30,7 @@
         mover.onmouseleave = () => {
             if (!mouseDown) return
             resetMouseDownId = setTimeout(() => {
-            mouseDown = false
+                mouseDown = false
             }, 300)
         }
         mover.onmouseenter = () => {
@@ -40,14 +40,18 @@
         }
 
         // update sidebar width
-        // INFO: may use parent element event. because can get more wide area.
-        mover.onmousemove = (ev) => {
-            if (!mouseDown) {
+        // INFO: use parent element event. because can run event wide area.
+        let el = mover.parentElement
+        if (!el.onmousemove) {
+            el = mover
+        }
+        el.parentElement.onmousemove = (ev: MouseEvent)  => {
+        if (!mouseDown) {
             return
-            }
+        }
 
-            // !! modify it for your code
-            const _width = ev.clientX - halfWidth
+        // !! modify it for your code
+        const _width = ev.clientX - halfWidth
             if (width != _width) width = _width
         }
     }
