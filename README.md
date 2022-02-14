@@ -1,6 +1,6 @@
 # svelte study
 
-nodeのuiフレームワークsvelteの勉強リポジトリ。ここでは実際に使っての勉強をします。svelte自体の勉強については公式サイトにて。
+node の ui フレームワーク svelte の勉強リポジトリ。ここでは実際に使っての勉強をします。svelte 自体の勉強については公式サイトにて。
 
 ## Todo
 
@@ -14,9 +14,9 @@ nodeのuiフレームワークsvelteの勉強リポジトリ。ここでは実�
 
 ### 各種ビルド
 
-- rollup-plugin-svelte: rollupコマンドに対応したビルド方法 ([doc](./rollup-svelte/README.md))
+- rollup-plugin-svelte: rollup コマンドに対応したビルド方法 ([doc](./rollup-svelte/README.md))
 
-## 公式サイト
+## official site
 
 - [Introduction / Basics • Svelte Tutorial](https://svelte.dev/tutorial/basics)
 - [Docs • Svelte](https://svelte.dev/docs)
@@ -25,10 +25,16 @@ nodeのuiフレームワークsvelteの勉強リポジトリ。ここでは実�
 
 - [tips](./docs/tips.md): 知っておくと便利なこと
 - [problems](./docs/problems.md): 時折当たる問題メモ
+- [Svelte for VS Code \- Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode)
 
 ## contents
 
-- [rollup-svelte](./rollup-svelte) : rollup-plugin-svelteを利用して動作をさせてみました
-  - rolluup: node.jsでのビルド環境
-- [sveltekit](./sveltekit) : svelteの開発補助パッケージsveltekitを利用して動作をさせてみました。viteによってビルド及び動作
+- [rollup-svelte](./rollup-svelte) : rollup-plugin-svelte を利用して動作をさせてみました
+  - rolluup: node.js でのビルド環境
+- [sveltekit](./sveltekit) : svelte の開発補助パッケージ sveltekit を利用して動作をさせてみました。vite によってビルド及び動作
 - [with webpack](https://github.com/awisu2/webpack-study/tree/main/svelteWithTypescript): webpack + svelte + typescript
+
+## self svelte components
+
+- [lasyImageOrder](./components/LasyImageOrder.svelte): lasy load image on order
+- [sidebarMover](./components/sidebarMover.svelte): resize the side area with the mouse
