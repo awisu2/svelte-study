@@ -7,7 +7,7 @@ summary of my svelte study
 
 *NOTE*
 
-- about sapper: sapper's successor is Sveltekit, as stated in the documentation. [Docs • Sapper](https://sapper.svelte.dev/docs)
+- sapper: sapper's successor is Sveltekit, as stated in the documentation. [Docs • Sapper](https://sapper.svelte.dev/docs)
 
 ## Todo
 
