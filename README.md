@@ -1,6 +1,13 @@
 # svelte study
 
-node の ui フレームワーク svelte の勉強リポジトリ。ここでは実際に使っての勉強をします。svelte 自体の勉強については公式サイトにて。
+summary of my svelte study
+
+- [Introduction / Basics • Svelte Tutorial](https://svelte.dev/tutorial/basics)
+- [Docs • Svelte](https://svelte.dev/docs)
+
+_NOTE_
+
+- sapper: sapper's successor is Sveltekit, as stated in the documentation. [Docs • Sapper](https://sapper.svelte.dev/docs)
 
 ## Todo
 
