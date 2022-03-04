@@ -12,6 +12,10 @@ node の ui フレームワーク svelte の勉強リポジトリ。ここでは
 
 [Introduction / Making an app • Svelte Tutorial](https://svelte.jp/tutorial/making-an-app)
 
+```bash
+npm create vite quickuse --template svelte-ts
+```
+
 ### 各種ビルド
 
 - rollup-plugin-svelte: rollup コマンドに対応したビルド方法 ([doc](./rollup-svelte/README.md))
@@ -20,12 +24,14 @@ node の ui フレームワーク svelte の勉強リポジトリ。ここでは
 
 - [Introduction / Basics • Svelte Tutorial](https://svelte.dev/tutorial/basics)
 - [Docs • Svelte](https://svelte.dev/docs)
+- [REPL](https://svelte.dev/repl): We can run svelte quickry on browser.
 
 ## docs
 
 - [tips](./docs/tips.md): 知っておくと便利なこと
 - [problems](./docs/problems.md): 時折当たる問題メモ
 - [Svelte for VS Code \- Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode)
+- [call export function](./docs/callExportFunction.md)
 
 ## contents
 
