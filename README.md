@@ -51,3 +51,4 @@ npm create vite quickuse --template svelte-ts
 
 - [lasyImageOrder](./components/LasyImageOrder.svelte): lasy load image on order
 - [sidebarMover](./components/sidebarMover.svelte): resize the side area with the mouse
+- [progress sample](./docs/progress.md)
